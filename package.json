@@ -3,13 +3,21 @@
   "version": "0.0.4",
   "description": "Connects to Wordpress API",
   "license": "MIT",
+  "author": {
+    "name": "David Royer",
+    "email": "droyer01@gmail.com"
+  },
   "contributors": [
     {
       "name": "David Royer <droyer01@gmail.com>"
     }
   ],
   "main": "lib/module.js",
-  "repository": "https://github.com/davidroyer/wpapi-js",
+  "private": false,
+  "repository": {
+    "url": "https://github.com/davidroyer/wpapi-js.git",
+    "type": "git"
+  },
   "publishConfig": {
     "access": "public"
   },
