@@ -29,7 +29,20 @@ The module features
  ]
 }
 ```
+### Additional Option
+```js
+{
+  modules: [
+    // Set the simple way
+    'wpapi-js',
+ ],
 
+  // Set options here outside `modules`
+ wpapi: {
+   { /* module options */ }
+ }
+}
+```
 ## Usage
 
 Module Description

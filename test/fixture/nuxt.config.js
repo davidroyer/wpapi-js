@@ -7,5 +7,8 @@ module.exports = {
   render: {
     resourceHints: false
   },
-  modules: ['@@']
+  modules: ['@@'],
+  wpapi: {
+    url: 'https://got2dance.wpapi.app'
+  }
 }
