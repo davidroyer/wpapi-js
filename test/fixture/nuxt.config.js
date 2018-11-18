@@ -9,6 +9,7 @@ module.exports = {
   },
   modules: ['@@'],
   wpapi: {
-    url: 'https://got2dance.wpapi.app'
+    url: 'https://demo1.wpapi.app'
+    // url: 'https://got2dance.wpapi.app'
   }
 }

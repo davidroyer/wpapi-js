@@ -23,6 +23,8 @@
   },
   "scripts": {
     "dev": "nuxt test/fixture",
+    "generate": "nuxt generate test/fixture",
+    "serve": "http-server dist",
     "lint": "eslint lib test",
     "test": "npm run lint && jest",
     "release": "standard-version && git push --follow-tags && npm publish"
@@ -39,7 +41,9 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "axios": "^0.18.0"
+    "@wpapi/wp-client": "^0.0.15",
+    "axios": "^0.18.0",
+    "mkdirp": "^0.5.1"
   },
   "devDependencies": {
     "codecov": "latest",

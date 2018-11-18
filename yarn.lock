@@ -705,6 +705,10 @@
     mustache "^2.3.0"
     stack-trace "0.0.10"
 
+"@types/node@^8.0.28":
+  version "8.10.38"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.38.tgz#e05c201a668492e534b48102aca0294898f449f6"
+
 "@vue/component-compiler-utils@^2.0.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@vue/component-compiler-utils/-/component-compiler-utils-2.2.0.tgz#bbbb7ed38a9a8a7c93abe7ef2e54a90a04b631b4"
@@ -843,6 +847,13 @@
     "@webassemblyjs/ast" "1.7.8"
     "@webassemblyjs/wast-parser" "1.7.8"
     "@xtuc/long" "4.2.1"
+
+"@wpapi/wp-client@^0.0.15":
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/@wpapi/wp-client/-/wp-client-0.0.15.tgz#e6e96d8047e14c0e6851babdcdf5bc3adcc273e6"
+  dependencies:
+    "@types/node" "^8.0.28"
+    axios "^0.18.0"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
