@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.0"></a>
+# [0.1.0](https://github.com/davidroyer/wpapi-js/compare/v0.0.6...v0.1.0) (2018-11-19)
+
+
+### Bug Fixes
+
+* Removed console.log ([5123937](https://github.com/davidroyer/wpapi-js/commit/5123937))
+
+
+### Features
+
+* **new text:** Testing CHANGELOG ([3c53072](https://github.com/davidroyer/wpapi-js/commit/3c53072))
+
+
+
 <a name="0.0.6"></a>
 ## [0.0.6](https://github.com/davidroyer/wpapi-js/compare/v0.0.5...v0.0.6) (2018-11-18)
 
