@@ -1,8 +1,6 @@
 <template>
   <section>
-    <h1>
-      Welcome to Nuxt!
-    </h1>
+    <h1>wpapi-js/nuxt-client</h1>
     <hr>
     <h2>Projects</h2>
     <pre>{{ projects.length }}</pre>
@@ -19,7 +17,7 @@
 
 export default {
   async asyncData ({ app }) {
-    console.log(app.$wp)
+    // console.log(app.$wp)
     const projects = await app.$wp.projects()
     const pages = await app.$wp.pages()
     const posts = await app.$wp.posts()
