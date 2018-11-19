@@ -1,6 +1,7 @@
 <template>
   <section>
     <h1>wpapi-js/nuxt-client</h1>
+    <h2>Testing</h2>
     <hr>
     <h2>Projects</h2>
     <pre>{{ projects.length }}</pre>
